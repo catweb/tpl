@@ -1,0 +1,7 @@
+{
+  "menu":[
+    {"name":"Главная", "link":"/"},
+    {"name":"О продукте", "link":"/product"},
+    {"name":"Акция", "link":"/action"}
+  ]
+}

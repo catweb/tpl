@@ -1,0 +1,21 @@
+@import "../mixins";
+/* new */
+.test {
+  display: inline;
+  a {
+    color: #000011;
+    .inlineblock();
+  }
+}
+.test2 {
+  display: block;
+  .clearfix();
+}
+@media all {
+  .test2 {
+    width: 20%;
+  }
+}
+.test3 {
+  display: flex;
+}

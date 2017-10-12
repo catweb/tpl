@@ -1,0 +1,58 @@
+@import "normalize.min.less";
+@import "fonts";
+@import "mixins";
+
+/* Common */
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 100.01%;
+}
+body {
+  font: 14px/1.41 'Arial', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+iframe {
+  border: 0 none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul {
+  list-style: none inside none;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  overflow: hidden;
+  min-width: 1000px;
+  z-index: 10;
+}
+.hidden, .ninja {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+//Прижимаем футер
+.empty {
+  height: 100px;
+  position: relative;
+}
+footer {
+  margin-top: -100px;
+}
+canvas {
+  display: block;
+}
