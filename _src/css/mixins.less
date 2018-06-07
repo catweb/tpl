@@ -66,10 +66,10 @@
 
 }
 .placeholder(@color: #cccccc) {
-  ::-webkit-input-placeholder {color: @color}
-  :-moz-placeholder           {color: @color}
-  ::-moz-placeholder          {color: @color; opacity: 1}
-  :-ms-input-placeholder      {color: @color}
+  &::-webkit-input-placeholder {color: @color}
+  &:-moz-placeholder           {color: @color}
+  &::-moz-placeholder          {color: @color; opacity: 1}
+  &:-ms-input-placeholder      {color: @color}
 }
 .media(@maxWidth; @rules) {
   @media only screen and (max-width: @maxWidth) {
